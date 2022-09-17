@@ -1,8 +1,10 @@
-import imp
 from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
 from datetime import datetime
+# Create your views here.
+
 def home(request):
-    print(request)
     return render(request, 'home/welcome.html',{'today': datetime.today()})
+
+def authorize(request):
+    return render(request, 'home/authorize.html',{})
