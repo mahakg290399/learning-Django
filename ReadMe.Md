@@ -7,4 +7,4 @@ This file will work as a NoteBook of whatever I learn during my Django Backend D
 5. when we want to introduce an new model in our app, we have to add our model in models.py file and if we want to control that model via admin console then we have to add that model in admin.py file. 
 6. Admin page is highly configurable, and all the fields can be modified.
 7. DTL is used to generate the templates dynamically. 
-8. 
+8. We can build some genric class based views for some of the common pages such as login page or Home page. I am not sure how does this helps with app or helps developer but it is there. Need to soon find out why are we doing that.
